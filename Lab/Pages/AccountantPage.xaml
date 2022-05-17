@@ -9,6 +9,34 @@
       Title="AccountantPage">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"></RowDefinition>
+            <RowDefinition Height="90"></RowDefinition>
+            <RowDefinition Height="90"></RowDefinition>
+            <RowDefinition Height="90"></RowDefinition>
+            <RowDefinition Height="90"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ListView Grid.ColumnSpan="3" Grid.RowSpan="2">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding ID}"></GridViewColumn>
+                    <GridViewColumn Header="Amount" DisplayMemberBinding="{Binding ID}"></GridViewColumn>
+                    <GridViewColumn Header="InsuranceCompany" DisplayMemberBinding="{Binding ID}"></GridViewColumn>
+                    <GridViewColumn Header="Accountant" DisplayMemberBinding="{Binding ID}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
         <Label x:Name="Role" 
                Content="Роль"
                FontSize="20"

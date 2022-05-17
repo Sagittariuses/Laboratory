@@ -7,12 +7,63 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="800">
     <Grid>
-        <Frame x:Name="MainFrame"
-               NavigationUIVisibility="Hidden" 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="500"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label
+               Content="Image"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Center"
+               Width="100"
+               Height="100" 
+               Background="AliceBlue"
+                />
+        <Label Grid.Row="0"
+               Grid.Column="5"
+               x:Name="Role" 
+               Content="Роль"
+               FontSize="20"
                HorizontalAlignment="Center"
                VerticalAlignment="Center"
-               >
-            
-        </Frame>
+               />
+        <Label Grid.Row="0"
+               Grid.Column="1"
+               x:Name="Surname" 
+               Content="Фамилия"
+               FontSize="20"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               />
+        <Label Grid.Row="0"
+               Grid.Column="2"
+               x:Name="Name" 
+               Content="Имя"
+               FontSize="20"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               />
+        <Frame Grid.Row="1"
+               Grid.ColumnSpan="8" 
+               x:Name="MainFrame"
+               Background="Aqua"
+               NavigationUIVisibility="Hidden" 
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               Height="467"
+               Width="800" 
+               />
     </Grid>
 </Window>
