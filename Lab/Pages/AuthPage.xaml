@@ -102,7 +102,7 @@
             Width="349"
             />
         <PasswordBox 
-            x:Name="PasswordTB"
+            x:Name="PasswordPB"
             HorizontalAlignment="Left" 
             Height="24" 
             FontSize="20"
@@ -112,7 +112,6 @@
             VerticalAlignment="Top"
             Margin="20,219,0,0"
             FontFamily="Calibri" 
-            TextWrapping="Wrap" 
             Width="349"
             />
         
