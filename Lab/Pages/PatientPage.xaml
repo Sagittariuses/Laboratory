@@ -9,16 +9,24 @@
       Title="PatientPage">
 
     <Grid>
-        <Image
-            HorizontalAlignment="Left"
-            VerticalAlignment="Center"
-            
-            />
-        <Label x:Name="Role" 
-               Content="Роль"
-               FontSize="20"
-               HorizontalAlignment="Center"
-               VerticalAlignment="Center"
-               />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"></RowDefinition>
+            <RowDefinition Height="90"></RowDefinition>
+            <RowDefinition Height="90"></RowDefinition>
+            <RowDefinition Height="90"></RowDefinition>
+            <RowDefinition Height="90"></RowDefinition>
+        </Grid.RowDefinitions>
+    
     </Grid>
 </Page>

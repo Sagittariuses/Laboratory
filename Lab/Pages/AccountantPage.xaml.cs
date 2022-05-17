@@ -24,5 +24,10 @@ namespace Lab.Pages
         {
             InitializeComponent();
         }
+
+        private void CreateBill_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

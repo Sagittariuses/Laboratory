@@ -24,5 +24,15 @@ namespace Lab.Pages
         {
             InitializeComponent();
         }
+
+        private void CreateReport_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void AddBiomaterial_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -40,6 +40,14 @@
                VerticalAlignment="Center"
                />
         <Label Grid.Row="0"
+               Grid.Column="7"
+               x:Name="Timer" 
+               Content="Время"
+               FontSize="20"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               />
+        <Label Grid.Row="0"
                Grid.Column="1"
                x:Name="Surname" 
                Content="Фамилия"

@@ -9,11 +9,6 @@
       Title="Laboratorian_ResearcherPage">
 
     <Grid>
-        <Label x:Name="Role" 
-               Content="Роль"
-               FontSize="20"
-               HorizontalAlignment="Center"
-               VerticalAlignment="Center"
-               />
+        
     </Grid>
 </Page>
