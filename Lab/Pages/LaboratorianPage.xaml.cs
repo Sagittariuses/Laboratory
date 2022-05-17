@@ -13,17 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Lab
+namespace Lab.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для LaboratorianPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class LaboratorianPage : Page
     {
-        public MainWindow()
+        public LaboratorianPage()
         {
             InitializeComponent();
-            MainFrame.Content = new Pages.AuthPage();
         }
     }
 }
