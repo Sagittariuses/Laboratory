@@ -114,7 +114,7 @@
             FontFamily="Calibri" 
             Width="349"
             />
-        
+
         <Button 
             x:Name="Auth"
             Content="Вход"
@@ -134,5 +134,14 @@
                     Direction="180"/>
             </Button.Effect>
         </Button>
+        <CheckBox 
+            Height="18"
+            Width="120"
+            Content="Скрыть пароль"
+            Foreground="Black"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center"
+            Margin="0,250,10,174">
+        </CheckBox>
     </Grid>
 </Page>
